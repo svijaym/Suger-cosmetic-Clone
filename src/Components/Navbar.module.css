@@ -1,0 +1,48 @@
+#navcat {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#maincat {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  font-weight: 700;
+}
+#temp {
+  height: 70px;
+  background-color: rgba(246, 247, 250, 0.756);
+  padding-top: 20px;
+}
+
+.navdropdwnbtn {
+  cursor: pointer;
+}
+
+.navdropdwn {
+  position: relative;
+  display: inline;
+  cursor: pointer;
+}
+
+.dropdwn-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdwn-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdwn-content a:hover {
+  background-color: #ddd;
+}
+
+.navdropdwn:hover .dropdwn-content {
+  display: block;
+}
